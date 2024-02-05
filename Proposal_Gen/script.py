@@ -5,13 +5,15 @@ import shutil
 import markdown2
 import re
 import mistune
-# ....................................................................................................
+# .............................................................................ls
+# .......................
+Version = "777"
+#input_file_path = 'Proposals/202401/'+Version+'/input.json'
 input_file_path = 'input.json'
 Year = "2024"
 Semester = "Spring"
-Version = "998"
 
-class MyRenderer(mistune.Renderer):
+class MyRenderer(mistune.HTMLRenderer):
     def list_item(self, text):
         # Wrap each list item in <li> tags and add a line break
         return f'<li>{text}</li>\n'
@@ -44,29 +46,32 @@ f"""
 #### The George Washington University, Washington DC  
 #### Data Science Program
 
+## 1 Introduction:
+{data['Introduction']}
 
-## 1 Objective:  
+## 2 Objective:  
 {data['Objective']}
 
-![Figure 1: Example figure]({Year}{semester2code[Semester.lower()]}_{data['Version']}.png)
-*Figure 1: Caption*
-
-## 2 Dataset:  
+## 3 Dataset:  
 {data['Dataset']}
 
-## 3 Rationale:  
+## 4 Research Hypotheses:  
+{data['Research Hypotheses']}
+
+
+## 5 Rationale:  
 {data['Rationale']}
 
-## 4 Approach:  
+## 6 Approach:  
 {data['Approach']}
 
-## 5 Timeline:  
+## 7 Timeline:  
 {data['Timeline']}
 
-## 6 Expected Number Students:  
+## 8 Expected Number Students:  
 {data['Expected Number Students']}
 
-## 7 Possible Issues:  
+## 9 Possible Issues:  
 {data['Possible Issues']}
 
 
