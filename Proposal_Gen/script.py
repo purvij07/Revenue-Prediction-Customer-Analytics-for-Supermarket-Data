@@ -6,12 +6,14 @@ import markdown2
 import re
 import mistune
 # ....................................................................................................
+Version = "242"
+#input_file_path = 'Proposals/202401/'+ Version+'/input.json'
 input_file_path = 'input.json'
 Year = "2024"
 Semester = "Spring"
-Version = "998"
 
-class MyRenderer(mistune.Renderer):
+
+class MyRenderer(mistune.HTMLRenderer):
     def list_item(self, text):
         # Wrap each list item in <li> tags and add a line break
         return f'<li>{text}</li>\n'
@@ -47,9 +49,6 @@ f"""
 
 ## 1 Objective:  
 {data['Objective']}
-
-![Figure 1: Example figure]({Year}{semester2code[Semester.lower()]}_{data['Version']}.png)
-*Figure 1: Caption*
 
 ## 2 Dataset:  
 {data['Dataset']}
