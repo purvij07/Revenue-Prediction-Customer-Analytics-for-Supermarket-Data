@@ -7,22 +7,7 @@
 #### The George Washington University, Washington DC  
 #### Data Science Program
 
-## 1 Introduction:
- 
-            Over the years, Zambia's health care system has experienced a number of changes in an effort to adapt to the 
-            country's changing economic and demographic conditions. The Ministry of Health's use of the National Health Accounts 
-            (NHA), a mechanism that precisely tracks public and private health spending, demonstrates its dedication to a strong 
-            and responsive health system. A detailed picture of the flow of health funds is given by the NHA's methodical approach, 
-            which starts at their sources and ends with the final health services that are provided to Zambians.
-
-	        This study attempts to extend the NHA estimations to 2021, offering a coherent and comparative view of health expenditures. 
-	        It does this by using the NHA Production Tool (NHAPT) and the WHO's System of Health Accounts (SHA) 2011 framework. 
-	        Understanding the Zambian health care system's past and present enables us to forecast its needs and prepare for its future. 
-	        Therefore, this project is not merely an academic exercise but a strategic endeavor to inform policy-making and optimize 
-            health service delivery for the nation's wellbeing.
-            
-
-## 2 Objective:  
+## 1 Objective:  
  
             The specific objectives are outlined as follows:
             * Assess Health Sector Budget Trends: To evaluate how the health sector budget in Zambia has evolved from 1990 to 2018, 
@@ -38,7 +23,7 @@
             in the Zambian healthcare financing system.
             
 
-## 3 Dataset:  
+## 2 Dataset:  
 
             * International databases such as the GHED, World Bank, and IMF databases for health spending data.
             * National sources including the Ministry of Finance Yellow Books for detailed budgetary information.
@@ -56,7 +41,7 @@
             
 
 
-## 5 Rationale:  
+## 3 Rationale:  
 
             The National Health Accounts (NHA) have historically provided a lens through which health expenditure in Zambia could 
             be viewed and assessed.By analyzing trends and compositions from the past decades, the study will highlight how 
@@ -75,7 +60,7 @@
 
             
 
-## 6 Approach:  
+## 4 Approach:  
 
             I plan on approaching this capstone through several steps.  
 
@@ -85,7 +70,7 @@
             To explore using Concept Mapping Financial Sustainability Framework approach.
             
 
-## 7 Timeline:  
+## 5 Timeline:  
 
             This a rough time line for this project:  
 
@@ -99,12 +84,12 @@
 
             
 
-## 8 Expected Number Students:  
+## 6 Expected Number Students:  
 
             For this project maximum 3 students can work on it.  
             
 
-## 9 Possible Issues:  
+## 7 Possible Issues:  
 
             Data Availability and Reliability: It may be difficult to obtain complete, accurate, and current data. Incomplete or inconsistent 
             historical data may have an impact on trend analysis and the reliability of conclusions.
