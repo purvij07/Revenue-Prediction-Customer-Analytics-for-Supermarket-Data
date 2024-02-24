@@ -7,7 +7,7 @@ import re
 import mistune
 # .............................................................................ls
 # .......................
-Version = "242"
+Version = "777"
 #input_file_path = 'Proposals/202401/'+Version+'/input.json'
 input_file_path = 'input.json'
 Year = "2024"
@@ -46,25 +46,28 @@ f"""
 #### The George Washington University, Washington DC  
 #### Data Science Program
 
-## 1 Objective:  
+## 1 Introduction:  
+{data['Introduction']}
+
+## 2 Objective:  
 {data['Objective']}
 
-## 2 Dataset:  
+## 3 Dataset:  
 {data['Dataset']}
 
-## 3 Rationale:  
+## 4 Rationale:  
 {data['Rationale']}
 
-## 4 Approach:  
+## 5 Approach:  
 {data['Approach']}
 
-## 5 Timeline:  
+## 6 Timeline:  
 {data['Timeline']}
 
-## 6 Expected Number Students:  
+## 7 Expected Number Students:  
 {data['Expected Number Students']}
 
-## 7 Possible Issues:  
+## 8 Possible Issues:  
 {data['Possible Issues']}
 
 
