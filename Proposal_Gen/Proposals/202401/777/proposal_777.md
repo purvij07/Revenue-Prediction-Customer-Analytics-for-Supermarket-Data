@@ -1,111 +1,85 @@
 
 # Capstone Proposal
-## National Health Accounts Producer Tool Use- Data Analysis
-### Proposed by: The World Bank
-#### Email: skagulura@worldbank.org
+## Time Series Forecasting for UK Supermarkets
+### Proposed by: Sowmya Maddali, Purvi Jain, Mohammed Kanu
+#### Email: sowmyamaddali@gwu.edu, pjain07@gwmail.gwu.edu, sillahkanu@gwmail.gwu.edu
 #### Advisor: Edwin Lo
 #### The George Washington University, Washington DC  
 #### Data Science Program
 
-## 1 Objective:  
+## 1 Introduction:  
  
-            The specific objectives are outlined as follows:
-            * Assess Health Sector Budget Trends: To evaluate how the health sector budget in Zambia has evolved from 1990 to 2018, 
-            with an emphasis on the changes in funding amounts and the structure of its allocation.
-            * Analyze Fiscal Space for Domestic Resource Mobilization: To examine the fiscal capacity of Zambia to fund health services
-            and determine the extent of domestic resource mobilization within the health sector.
-            * Estimate Budget Efficiency for Health: To measure how effectively the health budget is utilized in Zambia, 
-            ensuring that the allocated funds lead to the expected health outcomes without wastage.
-            * Assess Health Sector Financial Sustainability: To evaluate the long-term financial viability of the health sector 
-            in Zambia and the sustainability of health services provision within the context of public finance management.
-
-            The focus is on understanding the inefficiencies in resource utilization and the challenges associated with risk pooling 
-            in the Zambian healthcare financing system.
-            
-
-## 2 Dataset:  
-
-            * International databases such as the GHED, World Bank, and IMF databases for health spending data.
-            * National sources including the Ministry of Finance Yellow Books for detailed budgetary information.
-            * Complementary data from previous NHA studies, MTEF, and audit reports to enrich the analysis.
+            The UK's supermarket sector is witnessing transformative changes, demanding an acute analysis to forecast future trends
+            accurately. One important participant in this market, ASDA, provides a wealth of data for researching customer habits 
+            and sales patterns. Through strategic data analysis and forecasting, this initiative seeks to optimize sales and 
+            profitability by extending approaches to other big supermarkets in addition to analyzing ASDA's data.
 
             
 
-## 4 Research Hypotheses:  
-
-            The study will test the following hypotheses:
-            * Null Hypothesis (H0): Budgetary practices have no significant effect on fiscal space, efficiency, and sustainability
-            for health services provision in Zambia.
-            * Alternative Hypothesis (H1): Budgetary practices significantly affect fiscal space, efficiency, and sustainability 
-            for the attainment of health services in Zambia.
+## 2 Objective:  
+ 
+            Our objective is to use predictive analytics to accurately forecast future sales by analyzing sales trends at ASDA 
+            and other supermarkets. In order to compare consumer reactions to own brand versus competition items, we plan to 
+            closely examine ASDA's pricing methods and assess how they affect sales. This analysis will improve overall sales 
+            performance and consumer analytics and lay the groundwork for more extensive uses throughout the UK grocery industry.
             
 
+## 3 Dataset:  
 
-## 3 Rationale:  
+            Primarily centered around the ASDA dataset, our analysis extends to encompass datasets from four other UK supermarkets 
+            - Aldi, Morrisons, Tesco, and Sainsbury's, sourced from Kaggle. This comprehensive data collection, spanning from 
+            January 9, 2024, to the latest update, allows for a robust cross-comparison and predictive analytics application.
+            
 
-            The National Health Accounts (NHA) have historically provided a lens through which health expenditure in Zambia could 
-            be viewed and assessed.By analyzing trends and compositions from the past decades, the study will highlight how 
-            resource allocation has evolved and identify the leverage points for enhancing fiscal space and domestic resource 
-            mobilization. The investigation into budget efficiency and sustainability aims to pinpoint the systemic inefficiencies 
-            that hinder effective resource utilization.
+## 4 Rationale:  
 
-            Understanding the causal relationships between budget practices and health service delivery outcomes will inform strategies 
-            to improve risk pooling mechanisms, a critical component for achieving universal health coverage. The study's findings are 
-            expected to offer actionable insights that could lead to significant reforms in the health sector, ultimately contributing 
-            to the financial sustainability of health services in Zambia.
-
-            The rationale for this research is, therefore, to support Zambia's Ministry of Health in its mission to provide 
-            high-quality healthcare services by fostering a financially sustainable health system that effectively pools risks 
-            and efficiently allocates and utilizes resources.
+            By dissecting ASDA's time series data, we aim to uncover the underlying patterns that define its market performance. The study's 
+            rationale is rooted in the need to adapt to the dynamic retail environment, with a focus on maximizing sales and understanding the 
+            market's pulse. Findings from this research could potentially steer ASDA's strategic planning and pricing policies. The same can 
+            be followed for other four different UK supermarkets datasets.
 
             
 
-## 4 Approach:  
+## 5 Approach:  
 
             I plan on approaching this capstone through several steps.  
 
-            Application of the SHA framework for systematic classification of health expenditures.
-            Deployment of the Fiscal Space decomposition method and the Cobb-Douglas production function.
-            Measurement of budget efficiency using parametric and non-parametric methods, including DEA and FDH. 
-            To explore using Concept Mapping Financial Sustainability Framework approach.
+            The research will be approached in several phases: Detailed data preprocessing to ensure dataset quality and reliability. Application 
+            of time series analysis techniques, including ARIMA and exponential smoothing models. Utilization of machine learning methods for 
+            predictive analytics, such as neural networks. Comparative analysis of pricing strategies between ASDA's own brand and other brands.
+            This same approach can be applied to other four different UK supermarkets datasets.
+
             
 
-## 5 Timeline:  
+## 6 Timeline:  
 
             This a rough time line for this project:  
 
-            - ⁠(2 Weeks) Literature Review
-            - (3 Weeks) Data collection 
-            - (4 Weeks) Data Analysis
-            - (3 Weeks) Budget Process Analysis
-            - (1 Week)  Compiling Results  
-            - (1 Week)  Submission
-            - (1 Week)  Final Presentation
+            - ⁠(2 Weeks) Initial Data Cleaning and Preprocessing 
+            - (2 Weeks) Exploratory Data Analysis and Model Selection 
+            - (2 Weeks) Model Development and Validation 
+            - (1 Weeks) Comparative Analysis of Pricing Strategies 
+            - (1 Week)  Finalizing the Forecasting Model 
+            - (1 Week)  Drafting the Final Report, Presentation Preparation and Review
 
             
 
-## 6 Expected Number Students:  
+## 7 Expected Number Students:  
 
-            For this project maximum 3 students can work on it.  
+            This project can accommodate 3 students, allowing for a division of tasks ranging from data preprocessing
+            to model development and analysis.
             
 
-## 7 Possible Issues:  
+## 8 Possible Issues:  
 
-            Data Availability and Reliability: It may be difficult to obtain complete, accurate, and current data. Incomplete or inconsistent 
-            historical data may have an impact on trend analysis and the reliability of conclusions.
-
-            Changing Economic Conditions: The examination of fiscal space and health expenditures may be impacted over time by changes in Zambia's 
-            macroeconomic conditions, such as inflation rates, currency devaluations, or economic recessions.
-
-            Methodological Restrictions: Because the study is based on particular approaches, such as the Cobb-Douglas production function, 
-            it may not adequately capture the complexities of resource allocation in the health care industry due to its underlying assumptions.
-
-            Healthcare System Complexity: Analyzing budget efficiency and resource mobilization might become more difficult due to the 
-            healthcare system's multidimensional nature, which involves a variety of stakeholders and financial flows.
+            * Data Completeness: Missing values or inaccuracies within the ASDA dataset could impact the quality of the forecasts. 
+            * Model Overfitting: Ensuring the model generalizes well to unseen data while maintaining accuracy is a critical concern.
+            * Dynamic Market Conditions: The influence of external factors such as economic shifts and competitive actions may affect the predictability of sales trends. 
+            * Technological Limitations: The complexity of models may be constrained by available computational resources.
             
 
 
 ## Contact
 - Author: Edwin Lo
 - Email: [edwinlo@email.gwu.edu](Eamil)
-- GitHub: [https://github.com/purvij07/24Spr_PJAIN_NHA_DataAnalysis](Git Hub rep)
+- GitHub: [https://github.com/purvij07/24Spr_PJAIN_TimeSeries_SuperMarket](Git Hub rep)
